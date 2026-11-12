@@ -1,0 +1,126 @@
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.shortcut {
+    height: 52px;
+    background-color: #333;
+}
+.shortcut .wrapper {
+    height: 52px;
+}
+.shortcut .wrapper ul {
+    float: right;
+}
+.shortcut .wrapper ul li {
+    float: left;
+    line-height: 52px;
+}
+.shortcut .wrapper ul li a {
+    padding: 0 16px;
+    border-right: 1px solid #666;
+    font-size: 14px;
+    color: #dcdcdc;
+}
+
+.shortcut .wrapper li:last-child a {
+    border: 0;
+}
+
+
+.header{
+    margin: 30px auto;
+    height:70px;
+}
+.logo{
+    float: left;
+    width:207px;
+    height:70px;
+}
+.logo h1{
+     width:207px;
+    height:70px;
+}
+.logo h1 a{
+    display: block;
+    width: 207px;
+    height: 70px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    font-size: 0;
+}
+.nav{
+    margin-left:40px;
+    float: left;
+    height: 70px;
+}
+.nav li {
+    float: left;
+    margin-right: 48px;
+    line-height: 70px;
+}
+.nav li a{
+    padding-bottom: 7px;
+}
+.nav li a:hover{
+    color: #ff6600;
+    border-bottom: 2px solid #ff6600;
+
+}
+.search{
+    position: relative;
+    float: left;
+    margin-top: 24px;
+    margin-left: 34px;
+    width: 172px;
+    height: 30px;
+    border-bottom: 1px solid #faf9f8;
+}
+.search .icon-search{
+    position: absolute;
+    left: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #666;
+    
+}
+.search input{
+    padding-left: 24px;
+    width: 172px;
+    height: 28px;
+}
+.search input::placeholder{
+    color: #999;
+}
+.car{
+    position: relative;
+    float: left;
+    margin-top: 24px;
+    margin-left: 16px;
+    line-height: 1;
+    cursor: pointer;
+}
+.car i{
+    font-size: 24px;
+    color: #333;
+    vertical-align: middle;
+}
+.car span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 4px;
+    font-size: 9px;
+    color: #fff;
+    background-color: #ff6600;
+    border-radius: 50%;
+}
